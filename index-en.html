@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Daily Profit - multi industry group of companies</title>
+    <meta
+      name="Description"
+      content="Supplies and innovations. Marketing. Construction. Merger and acquisition. Legal services."
+    />
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      body {
+        opacity: 0;
+        transition: 0.7s;
+        -webkit-transition: 0.7s;
+      }
+      [v-cloak] {
+        opacity: 0;
+      }
+
+      [class*="ymaps-2"][class*="-ground-pane"] {
+        filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+        /* Firefox 3.5+ */
+        -webkit-filter: grayscale(100%);
+        /* Chrome 19+ & Safari 6+ */
+      }
+
+      .ymaps-2-1-79-gototaxi,
+      .ymaps-2-1-79-gotoymaps {
+        filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+        /* Firefox 3.5+ */
+        -webkit-filter: grayscale(100%);
+        /* Chrome 19+ & Safari 6+ */
+      }
+    </style>
+
+    <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=c830657e-3077-4b6f-b2da-0780df110612
+&lang=en_US"
+      type="text/javascript"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper-all" id="app" v-cloak>
+      <a href="index.html" class="language">Ru</a>
+
+      <div class="menu" v-bind:class="{ active: menu.open }">
+        <a
+          href="index-en.html"
+          class="menu__icon"
+          v-on:click.prevent="menuOpen"
+        >
+          <img src="image/menu/logo-menu.svg" alt="pic" style="width: 30px" />
+          <span>Menu</span>
+        </a>
+
+        <img
+          src="image/section1/logo-menu.svg"
+          alt="pic"
+          class="menu__icon_mobile"
+        />
+
+        <button class="menu__btn" v-on:click.prevent="menuOpen">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <ul class="menu__nav">
+          <li>
+            <a href="#a4" v-on:click.prevent="scrollTo">About</a>
+          </li>
+          <li>
+            <a href="#a1" v-on:click.prevent="scrollTo">SCOPE OF EXPERTISE</a>
+          </li>
+          <li>
+            <a href="#a2" v-on:click.prevent="scrollTo"
+              >OUR CUSTOMERS AND PARTNERS</a
+            >
+          </li>
+
+          <li>
+            <a href="#a3" v-on:click.prevent="scrollTo">TEAM</a>
+          </li>
+
+          <li>
+            <a href="#a5" v-on:click.prevent="scrollTo">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- SECTION 1 -->
+      <section class="s1">
+        <div class="wrapper">
+          <div>
+            <img src="image/section1/logo-new.svg" alt="pic" class="logo" />
+            <h1 class="heading">Deserved trust of partners</h1>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2 -->
+      <section class="s2" id="a4">
+        <div class="wrapper">
+          <p class="text">
+            <span>Daily Profit</span> — multi industry group of companies,
+            developed from independent advertising agency of full cycle. We have
+            investigated and studied the aspects of activities in the numerous
+            business areas and built successful relations with large market
+            players in various fields. We have been applying this experience
+            since 2010, which allows us to carry out the global projects of any
+            complexity level within the shortest time.
+          </p>
+        </div>
+      </section>
+
+      <!-- SECTION 3 -->
+      <section class="s3" id="a1">
+        <div class="wrapper">
+          <h2 class="title">Scope of expertise</h2>
+
+          <div class="container">
+            <div class="left">
+              <ul>
+                <li
+                  v-on:click="setTab(1, $event)"
+                  v-bind:class="{ active: tab.active == 1 }"
+                >
+                  Supplies and innovations
+
+                  <div class="inner-list" v-show="tab.active == 1">
+                    <ul>
+                      <li>
+                        Broad opportunities to supply equipment of civil and
+                        dual purpose, products and components for industry and
+                        manufacturing
+                      </li>
+                      <li>
+                        Innovative and technological solutions for industry and
+                        manufacturing
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li
+                  v-on:click="setTab(5, $event)"
+                  v-bind:class="{ active: tab.active == 5 }"
+                >
+                  Marketing
+
+                  <div class="inner-list" v-show="tab.active == 5">
+                    <ul>
+                      <li>Sports marketing</li>
+                      <li>Big Data</li>
+                      <li>Perfomance marketing</li>
+                      <li>Strategy</li>
+                      <li>Media campaigns</li>
+                      <li>Social Media marketing</li>
+                      <li>Web production</li>
+                      <li>Mobile</li>
+                      <li>Digital PR</li>
+                      <li>New technologies</li>
+                      <li>Оutdoor advertising</li>
+                    </ul>
+                    <a
+                      href="download/Daily_Profit_Marketing_credentials.pdf"
+                      target="_blank"
+                      class="download"
+                      >Download the case of the agency</a
+                    >
+                  </div>
+                </li>
+
+                <li
+                  v-on:click="setTab(2, $event)"
+                  v-bind:class="{ active: tab.active == 2 }"
+                >
+                  Construction
+
+                  <div class="inner-list" v-show="tab.active == 2">
+                    <ul>
+                      <li>
+                        Construction, service and maintenance of infrastructure
+                        buildings and surrounding territories
+                      </li>
+                      <li>Design works</li>
+                      <li>New construction technologies</li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li
+                  v-on:click="setTab(3, $event)"
+                  v-bind:class="{ active: tab.active == 3 }"
+                >
+                  Merger and acquisition
+
+                  <div class="inner-list" v-show="tab.active == 3">
+                    <ul>
+                      <li>
+                        Business purchase and sale transactions, mergers,
+                        partnerships and business alliances
+                      </li>
+                      <li>Fund raising</li>
+                      <li>Strategy and management consulting</li>
+                      <li>
+                        Special situations (corporate conflict solutions, asset
+                        protection)
+                      </li>
+                      <li>Private Banking</li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li
+                  v-on:click="setTab(4, $event)"
+                  v-bind:class="{ active: tab.active == 4 }"
+                >
+                  Legal services
+
+                  <div class="inner-list" v-show="tab.active == 4">
+                    <ul>
+                      <li>Corporate law</li>
+                      <li>Administrative control</li>
+                      <li>Commercial and administrative agreements</li>
+                      <li>Litigation settlements, arbitrage</li>
+                      <li>Customs law, foreign trade control</li>
+                      <li>Tax and labor law</li>
+                      <li>Antimonopoly regulation</li>
+                      <li>Intellectual property</li>
+                      <li>Bankruptcy</li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="right">
+              <div class="arr" v-bind:style="{ top: tab.top + 'px' }"></div>
+
+              <transition name="fade">
+                <ul v-show="tab.active == 1">
+                  <li>
+                    Broad opportunities to supply equipment of civil and dual
+                    purpose, products and components for industry and
+                    manufacturing
+                  </li>
+                  <li>
+                    Innovative and technological solutions for industry and
+                    manufacturing
+                  </li>
+                </ul>
+              </transition>
+              <transition name="fade">
+                <ul v-show="tab.active == 2">
+                  <li>
+                    Construction, service and maintenance of infrastructure
+                    buildings and surrounding territories
+                  </li>
+                  <li>Design works</li>
+                  <li>New construction technologies</li>
+                </ul>
+              </transition>
+              <transition name="fade">
+                <ul v-show="tab.active == 3">
+                  <li>
+                    Business purchase and sale transactions, mergers,
+                    partnerships and business alliances
+                  </li>
+                  <li>Fund raising</li>
+                  <li>Strategy and management consulting</li>
+                  <li>
+                    Special situations (corporate conflict solutions, asset
+                    protection)
+                  </li>
+                  <li>Private Banking</li>
+                </ul>
+              </transition>
+              <transition name="fade">
+                <ul v-show="tab.active == 4">
+                  <li>Corporate law</li>
+                  <li>Administrative control</li>
+                  <li>Commercial and administrative agreements</li>
+                  <li>Litigation settlements, arbitrage</li>
+                  <li>Customs law, foreign trade control</li>
+                  <li>Tax and labor law</li>
+                  <li>Antimonopoly regulation</li>
+                  <li>Intellectual property</li>
+                  <li>Bankruptcy</li>
+                </ul>
+              </transition>
+              <transition name="fade">
+                <div v-show="tab.active == 5">
+                  <ul>
+                    <li>Sports marketing</li>
+                    <li>Big Data</li>
+                    <li>Perfomance marketing</li>
+                    <li>Strategy</li>
+                    <li>Media campaigns</li>
+                    <li>Social Media marketing</li>
+                    <li>Web production</li>
+                    <li>Mobile</li>
+                    <li>Digital PR</li>
+                    <li>New technologies</li>
+                    <li>Оutdoor advertising</li>
+                  </ul>
+                  <a
+                    href="download/Daily_Profit_Marketing_credentials.pdf"
+                    target="_blank"
+                    class="download"
+                    >Download the case of the agency</a
+                  >
+                </div>
+              </transition>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4 -->
+      <section class="s4" id="a2">
+        <div class="wrapper">
+          <h2 class="title">Our customers and partners</h2>
+
+          <div class="container">
+            <div>
+              <img
+                style="width: 80px"
+                src="image/section4/en/001.png"
+                alt="pic"
+              />
+            </div>
+            <div>
+              <img src="image/section4/en/002.png" alt="pic" />
+            </div>
+            <div>
+              <img
+                style="width: 100px"
+                src="image/section4/en/003.png"
+                alt="pic"
+              />
+            </div>
+            <div>
+              <img
+                style="width: 180px"
+                src="image/section4/en/004.png"
+                alt="pic"
+              />
+            </div>
+            <div>
+              <img src="image/section4/en/005.png" alt="pic" />
+            </div>
+            <div>
+              <img src="image/section4/en/006.png" alt="pic" />
+            </div>
+            <div>
+              <img src="image/section4/en/007.png" alt="pic" />
+            </div>
+            <div>
+              <img src="image/section4/en/008.png" alt="pic" />
+            </div>
+            <div>
+              <img src="image/section4/en/009.png" alt="pic" />
+            </div>
+            <div>
+              <img src="image/section4/en/010.png" alt="pic" />
+            </div>
+            <div>
+              <img src="image/section4/en/011.png" alt="pic" />
+            </div>
+            <div>
+              <img src="image/section4/en/012.png" alt="pic" />
+            </div>
+            <div>
+              <img src="image/section4/en/013.png" alt="pic" />
+            </div>
+            <div>
+              <img
+                style="width: 193px"
+                src="image/section4/en/014.png"
+                alt="pic"
+              />
+            </div>
+            <div>
+              <img
+                style="width: 193px"
+                src="image/section4/en/015.png"
+                alt="pic"
+              />
+            </div>
+            <div>
+              <img src="image/section4/en/016.png" alt="pic" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5 -->
+      <section class="s5" id="a3">
+        <div class="wrapper">
+          <h2 class="title">Team</h2>
+          <p class="subtitle">Daily Profit — efficiency day by day</p>
+
+          <p class="text">
+            Well-balanced team of professionals with various experience in the
+            largest Russian and international companies. There is deep expert
+            analysis of all crucial market factors behind our success, and not
+            the guesses and assumptions.
+          </p>
+        </div>
+      </section>
+
+      <!-- SECTION 6 -->
+      <section class="s6">
+        <div class="slide slide_1"></div>
+        <div class="slide slide_2"></div>
+        <div class="slide slide_3"></div>
+        <div class="slide slide_4"></div>
+        <div class="slide slide_5"></div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="footer" id="a5">
+        <div class="wrapper">
+          <div class="container">
+            <h2 class="title">Contact us</h2>
+
+            <div class="items">
+              <div class="item">
+                <p class="heading">Tel.</p>
+
+                <a href="tel:+7(499)123-45-67" class="text">
+                  +7 (499) 123-45-67
+                </a>
+              </div>
+              <div class="item">
+                <p class="heading">E-mail</p>
+
+                <a href="mailto:Info@dailyprofit.ru" class="text">
+                  info@dailyprofit.us
+                </a>
+              </div>
+              <div class="item">
+                <p class="heading">Adress</p>
+
+                <p class="text">New York, NY (Brooklyn)</p>
+              </div>
+            </div>
+
+            <div class="social">
+              <a
+                href="https://www.facebook.com/DailyProfit.ru/"
+                target="_blank"
+              >
+                <svg
+                  id="SvgjsSvg1000"
+                  version="1.1"
+                  width="10"
+                  height="19"
+                  viewBox="0 0 10 19"
+                >
+                  <defs id="SvgjsDefs1001"></defs>
+                  <path
+                    id="SvgjsPath1007"
+                    d="M491.009 1675.37C490.00300000000004 1675.1599999999999 489.228 1675.01 488.17 1675.01C485.125 1675.01 483.91200000000003 1676.44 483.91200000000003 1678.99L483.91200000000003 1680.85L482.00300000000004 1680.85L482.00300000000004 1683.86L483.91200000000003 1683.86L483.91200000000003 1693.01L487.62800000000004 1693.01L487.62800000000004 1683.86L490.338 1683.86L490.596 1680.85L487.628 1680.85L487.628 1679.3899999999999C487.628 1678.58 487.70599999999996 1678.07 488.893 1678.07C489.332 1678.07 490.02799999999996 1678.1399999999999 490.544 1678.25Z "
+                    fill="#068567"
+                    fill-opacity="1"
+                    transform="matrix(1,0,0,1,-482,-1675)"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div id="map"></div>
+      </footer>
+    </div>
+
+    <script type="text/javascript">
+      ymaps.ready(init);
+      function init() {
+        // Создание карты.
+        var myMap = new ymaps.Map("map", {
+          center: [40.6501, -73.9496],
+          zoom: 18,
+          controls: ["zoomControl"],
+        });
+
+        myMap.behaviors.disable("scrollZoom");
+
+        myPlacemark = new ymaps.Placemark(
+          [40.6501, -73.9496],
+          {},
+          {
+            iconLayout: "default#image",
+            iconImageHref: "http://dailyprofit.ru/image/footer/tooltip.png",
+            iconImageSize: [127, 77],
+            iconImageOffset: [-50, -75],
+          }
+        );
+
+        myMap.geoObjects.add(myPlacemark);
+      }
+    </script>
+    <link rel="stylesheet" href="script/jquery/slick-1.5.0/slick/slick.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="script/jquery/jquery.js"></script>
+    <script src="script/jquery/slick-1.5.0/slick/slick.min.js"></script>
+    <script src="script/vue/vue.min.js"></script>
+    <script src="script/main.js"></script>
+  </body>
+</html>

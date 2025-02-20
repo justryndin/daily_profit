@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640" height="250" viewBox="0 0 640 250" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(59, 49, 49, 0)"></rect>
+<g transform="matrix(1 0 0 1 237 246)"  >
+<path style="stroke: rgb(64,60,60); stroke-width: 1; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-237, -246)" d="M 236.999 246 L 237.001 246" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 86.13 50.28)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(274, -542.3)" d="M -285.9 529.6 h 10.1 c 8.1 0 13.7 5.5 13.7 12.7 c 0 7.2 -5.6 12.7 -13.7 12.7 h -10.1 V 529.6 z M -275.8 550 c 4.6 0 7.8 -3.1 7.8 -7.7 c 0 -4.5 -3.1 -7.7 -7.8 -7.7 h -4.4 V 550 H -275.8 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 169.66 49.93)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(250.2, -542.2)" d="M -252.7 529.4 h 5.2 l 11 25.6 h -5.9 l -2.4 -5.7 h -10.9 l -2.4 5.7 h -5.8 L -252.7 529.4 z M -246.7 544.4 l -3.4 -8.3 l -3.4 8.3 H -246.7 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 236.18 50.46)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(231.25, -542.35)" d="M -234.1 529.6 h 5.7 v 25.5 h -5.7 V 529.6 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 292.34 50.28)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(215.25, -542.3)" d="M -224.5 529.6 h 5.7 v 20.3 h 12.8 v 5.1 h -18.5 V 529.6 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 345.34 50.28)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(200.15, -542.3)" d="M -203 545 l -9.9 -15.4 h 6.6 l 6.2 10.2 l 6.3 -10.2 h 6.4 l -9.9 15.3 V 555 h -5.7 V 545 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 80.16 159.09)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(275.7, -573.3)" d="M -285.9 560.6 h 10.5 c 6.1 0 9.9 3.6 9.9 8.9 c 0 5.9 -4.6 8.9 -10.4 8.9 h -4.3 v 7.6 h -5.7 V 560.6 z M -275.7 573.4 c 2.8 0 4.5 -1.7 4.5 -3.9 c 0 -2.5 -1.8 -3.9 -4.6 -3.9 h -4.4 v 7.8 H -275.7 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 161.77 160.27)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(252.45, -573.35)" d="M -263.6 560.6 h 11.8 c 3.3 0 5.8 0.9 7.5 2.6 c 1.4 1.4 2.2 3.4 2.2 5.9 c 0 4.1 -2.2 6.7 -5.5 7.9 l 6.3 9.1 h -6.6 l -5.6 -8.1 h -4.4 v 8.1 h -5.7 C -263.6 586.1 -263.6 560.6 -263.6 560.6 z M -252.2 573 c 2.8 0 4.3 -1.5 4.3 -3.7 c 0 -2.4 -1.7 -3.6 -4.5 -3.6 h -5.6 v 7.3 H -252.2 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 252.5 159.09)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(226.6, -573.3)" d="M -240.3 573.3 c 0 -7.2 5.8 -13.2 13.7 -13.2 c 8 0 13.7 5.9 13.7 13.2 c 0 7.2 -5.8 13.2 -13.7 13.2 C -234.5 586.5 -240.3 580.6 -240.3 573.3 z M -218.8 573.3 c 0 -4.4 -3.2 -8 -7.8 -8 c -4.6 0 -7.7 3.6 -7.7 8 c 0 4.4 3.2 8 7.8 8 C -222 581.3 -218.8 577.8 -218.8 573.3 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 343.06 159.27)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(200.8, -573.35)" d="M -210.6 560.6 h 19.6 v 5.1 h -14 v 5.4 h 12.3 v 5.1 h -12.2 v 9.9 h -5.7 C -210.6 586.1 -210.6 560.6 -210.6 560.6 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 398.34 159.27)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(185.05, -573.35)" d="M -187.9 560.6 h 5.7 v 25.5 h -5.7 V 560.6 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(3.51 0 0 3.51 455.73 159.27)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(168.7, -573.35)" d="M -171.6 565.8 h -7.8 v -5.2 h 21.4 v 5.2 h -8 v 20.3 h -5.7 v -20.3 H -171.6 z" stroke-linecap="round" />
+</g>
+</svg>
