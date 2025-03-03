@@ -69,6 +69,9 @@
             <a href="#a4" v-on:click.prevent="scrollTo">About</a>
           </li>
           <li>
+            <a href="#a3" v-on:click.prevent="scrollTo">TEAM</a>
+          </li>
+          <li>
             <a href="#a1" v-on:click.prevent="scrollTo">SCOPE OF EXPERTISE</a>
           </li>
           <li>
@@ -77,9 +80,6 @@
             >
           </li>
 
-          <li>
-            <a href="#a3" v-on:click.prevent="scrollTo">TEAM</a>
-          </li>
 
           <li>
             <a href="#a5" v-on:click.prevent="scrollTo">CONTACT US</a>
@@ -90,9 +90,10 @@
       <!-- SECTION 1 -->
       <section class="s1">
         <div class="wrapper">
-          <div>
-            <img src="image/section1/logo-new.svg" alt="pic" class="logo" />
-            <h1 class="heading">Deserved trust of partners</h1>
+          <div class="header">
+            <!-- <img src="image/section1/logo-new.svg" alt="pic" class="logo" /> -->
+              <h1 class="heading">Daily Profit</h1>
+              <p class="heading__p">Elevate Your Brand with Expert SMM Solutions</p>
           </div>
         </div>
       </section>
@@ -419,7 +420,7 @@
         // Создание карты.
         var myMap = new ymaps.Map("map", {
           center: [40.6501, -73.9496],
-          zoom: 18,
+          zoom: 15,
           controls: ["zoomControl"],
         });
 
