@@ -1577,7 +1577,7 @@
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: rgba(6, 133, 103, 0.85);
+    background-color: rgba(6, 133, 103);
     transform: translateY(-150%);
     transition: 0.25s all;
     -webkit-transition: 0.25s all;
@@ -1719,7 +1719,7 @@
 
 @media (max-width: 768px) {
   .s1 {
-    min-height: auto;
+    min-height: 600px;
     height: auto;
     padding: 100px 0;
   }
