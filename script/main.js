@@ -1,6 +1,6 @@
-var app = new Vue ({
-    el:'#app',
-    data:{
+var app = new Vue({
+    el: '#app',
+    data: {
         menu: {
             open: false
         },
@@ -9,7 +9,7 @@ var app = new Vue ({
             top: 41
         }
     },
-    methods:{
+    methods: {
         toggleActive: function (e) {
             e.target.classList.toggle('active');
         },
@@ -17,7 +17,7 @@ var app = new Vue ({
             var path = $(e.target).attr('href');
             $('body, html').animate({
                 scrollTop: $(path).offset().top
-            },600);
+            }, 600);
         },
         menuOpen: function (e) {
             this.menu.open = !this.menu.open

@@ -2327,23 +2327,23 @@
 }
 
 .s6 .slide_1 {
-  background-image: url("../image/section6/1.jpg");
+  background-image: url("../image/section6/img/1_slide.JPG");
 }
 
 .s6 .slide_2 {
-  background-image: url("../image/section6/2.jpg");
+  background-image: url("../image/section6/img/2_slide.JPG");
 }
 
 .s6 .slide_3 {
-  background-image: url("../image/section6/3.jpg");
+  background-image: url("../image/section6/img/3_slide.JPG");
 }
 
 .s6 .slide_4 {
-  background-image: url("../image/section6/4.jpg");
+  background-image: url("../image/section6/img/4_slide.JPG");
 }
 
 .s6 .slide_5 {
-  background-image: url("../image/section6/5.jpg");
+  background-image: url("../image/section6/img/5_slide.JPG");
 }
 
 .s6 .slide_6 {
@@ -2352,23 +2352,23 @@
 
 @media (max-width: 960px) {
   .s6 .slide_1 {
-    background-image: url("../image/section6/md/1.jpg");
+    background-image: url("../image/section6/img/1_slide.JPG");
   }
 
   .s6 .slide_2 {
-    background-image: url("../image/section6/md/2.jpg");
+    background-image: url("../image/section6/img/2_slide.JPG");
   }
 
   .s6 .slide_3 {
-    background-image: url("../image/section6/md/3.jpg");
+    background-image: url("../image/section6/img/3_slide.JPG");
   }
 
   .s6 .slide_4 {
-    background-image: url("../image/section6/md/4.jpg");
+    background-image: url("../image/section6/img/4_slide.JPG");
   }
 
   .s6 .slide_5 {
-    background-image: url("../image/section6/md/5.jpg");
+    background-image: url("../image/section6/img/5_slide.JPG");
   }
 
   .s6 .slide_6 {
@@ -2690,7 +2690,7 @@ footer {
   header,
   section,
   footer {
-    padding: 0 15px;
+    padding: 0 25px;
   }
 }
 
