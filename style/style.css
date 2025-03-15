@@ -1782,7 +1782,7 @@
 .s2 .text {
   position: relative;
   color: #404040;
-  font-size: 26px;
+  font-size: 18px;
   line-height: 40px;
   font-weight: 400;
   padding-left: 95px;
@@ -1790,8 +1790,8 @@
 
 @media (max-width: 768px) {
   .s2 .text {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
@@ -2742,5 +2742,6 @@ button {
 /*# sourceMappingURL=style.css.map */
 
 .menu__icon_mobile {
-  width: 71px;
+  width: 30px;
+  margin-top: 15px;
 }
