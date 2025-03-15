@@ -1738,7 +1738,7 @@
 }
 
 .s1 .heading {
-  font-size: 120px;
+  font-size: 116px;
   font-weight: bold;
   text-transform: uppercase;
   color: white;
@@ -1746,18 +1746,34 @@
 
 .s1 .heading__p {
   color: white;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 @media (max-width: 768px) {
   .s1 .heading {
-    font-size: 36px;
+    font-size: 76px;
   }
 
   .s1 .heading__p {
     font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .s1 .heading {
+    font-size: 56px;
+  }
+
+  .s1 .heading__p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .s1 .heading {
+    font-size: 36px;
   }
 }
 
