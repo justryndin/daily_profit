@@ -1710,11 +1710,45 @@
 .s1 {
   height: 100vh;
   min-height: 600px;
-  background-image: url("../image/section1/Gradient2.png");
+
+  /* background-image: url("../image/section1/Gradient2.png"); */
+  /* background: linear-gradient(45deg,
+      #239087, #3bd063, #3acf96, #3bd063, #8DE345); */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  25% {
+    background-position: 50% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  75% {
+    background-position: 50% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-bg {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(-45deg,
+      #239087, #3bd063, #3acf96, #3bd063, #8DE345);
+  background-size: 300% 300%;
+  animation: gradientAnimation 8s cubic-bezier(0.42, 0, 0.58, 1) infinite;
 }
 
 @media (max-width: 768px) {
@@ -1729,7 +1763,7 @@
   .s1 {
     max-height: 777px;
     padding: 50px 0;
-    background-image: url("../image/section1/Gradient2.png");
+    /* background-image: url("../image/section1/Gradient2.png"); */
   }
 }
 
